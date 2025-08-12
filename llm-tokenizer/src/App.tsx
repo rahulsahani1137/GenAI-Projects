@@ -1,6 +1,6 @@
 import Header from "./components/sections/header"
 import InputField from "./components/sections/input-field"
-import OutputToken from "./components/sections/output"
+import OutputResult from "./components/sections/output"
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <Header />
       <div className="grid grid-cols-2 gap-4">
         <InputField />
-        <OutputToken />
+        <OutputResult />
       </div>
     </main>
   )
